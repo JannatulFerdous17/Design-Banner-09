@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+/*global css*/
+body{
+    font-family: "DM Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+h5{
+    color: rgb(94, 149, 216);
+    font-size: 14px;
+    font-weight: 700px;
+text-transform: uppercase;
+margin-bottom: 7px;
+}
+h2{
+    font-size: 35px;
+    font-weight: 700px;
+}
+
+p{
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 25px;
+color:white;
+}
+
+/* header section code start*/
+header{
+    width: 100%;
+    background: url(../img/banner.png) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar .nav-item{
+margin-left: 11px;
+
+}
+.navbar .nav-item .nav-link{
+    color: white;
+
+}
+.cus-hight{
+    height: 92vh;
+}
+/*header section css atart*/
+header .banner-section h1{
+font-size: 50px;
+font-weight: 700;
+color: white;
+margin-bottom: 20px;
+}
+header .banner-section p{
+     width: 70%;
+    color: white;
+}
+header .banner-section .btns {
+    margin-top: 60px;
+}
+header .banner-section .btns a{
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+header .banner-section .btns .btn-primary{
+   background-color: #008ed6;
+   border-color: 1px solid #008ed6;
+   margin-right: 5px; 
+}
+header .banner-section .btns .btn-primary{
+    background-color: #008ed6;
+    border-color: 1px solid #008ed6;
+    margin-right: 5px;
+    transition: 0.7s; 
+ }
+ header .banner-section .btns .btn-primary:hover{
+    background-color: transparent;
+    border-color: 1px solid white;
+    transition: 0.7s; 
+ }
+header .banner-section .btns .btn-info{
+    background-color: transparent;
+    border-color: 1px solid white;
+    transition: 0.7s; 
+ }
+ header .banner-section .btns .btn-info:hover{
+    background-color: #008ed6;
+    border-color: 1px solid #008ed6;
+    transition: 0.7s; 
+ }
+ .title{
+margin: 50px;
+
+ }
+ /*Features section css start*/
+ .Features-section{
+    width: 100%;
+    padding: 55px  0px;
+ }
+ p {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #999999;
+}
+.line {
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    border-bottom: 3px solid #578bd1;
+    padding-bottom: 20px;
+    transition: 0.5s;
+}
+ .Features-section .i-box i{
+    font-size: 30px;
+    color:#008ed6 ;
+    width: 80px;
+    border: 1px solid #e4dede;
+    border-radius: 50%;
+    line-height: 80px;
+    margin-bottom: 25px;
+
+ }
+ .Features-section .i-box h6{
+font-size: 22px;
+color: #1a1a1a;
+
+ }
+ .Features-section .i-box p{
+  padding: 0px 20px;
+}
